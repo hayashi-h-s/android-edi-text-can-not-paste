@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#968D8D</color>
+    <color name="blue_light">#8FBDD9</color>
+    <color name="blue">#8FA2D9</color>
+    <color name="green_clear_light">#33A2C654</color>
+    <color name="green_light">#A2C654</color>
+    <color name="green_dark">#82A634</color>
+    <color name="red">#D37F8F</color>
+    <color name="red_dark">#B35F6F</color>
+    <color name="brown">#B2884E</color>
+    <color name="black">#000000</color>
+    <color name="clear">#00FFFFFF</color>
+    <color name="clear_white">#99FFFFFF</color>
+    <color name="clear_dark">#99333333</color>
+    <color name="dark_gray_alpha">#EC333333</color>
+    <color name="gray_alpha">#CC968D8D</color>
+    <color name="light_gray_alpha">#66968D8D</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+
+    <!-- common color start-->
+    <color name="text_color_default">#445061</color>
+    <color name="text_color_deep_gray">#ff666666</color>
+    <color name="text_color_gray">#ff888888</color>
+    <color name="text_link_color">#8FA2D9</color>
+    <color name="light_gray">#ffcccccc</color>
+    <color name="dark_gray">#ff333333</color>
+    <color name="super_light_gray">#F7F8FA</color>
+    <color name="dim_gray">#DDDDDD</color>
+    <color name="thin_gray">#E7E8EA</color>
+    <color name="male_text_color">#8FBDD9</color> <!--男性-->
+    <color name="female_text_color">#E098B5</color> <!--女性-->
+    <color name="app_red">#D37F8F</color> <!--アプリで使用する赤色-->
+    <color name="header_color">#FFFFFF</color><!-- ヘッダーの色 -->
+    <color name="header_text_color">#445061</color><!-- ヘッダーの文字色 -->
+
+    <color name="app_second_primary_clear_color">#228FBDD9</color>
+    <color name="app_header_color">#E098B5</color>
+    <color name="app_primary_color">#E098B5</color><!-- アプリのメインカラー -->
+    <color name="app_primary_color_alpha">#99E098B5</color>
+    <color name="app_primary_dark_color">#C07895</color><!-- アプリのメインカラー（暗） -->
+    <color name="app_primary_frame_color">#FFFFFF</color><!-- アプリのメインカラー使用時のフレームカラー -->
+    <color name="app_primary_pair_color">#FFFFFF</color><!-- アプリのメインカラー使用時の内部カラー -->
+    <color name="app_main_yellow_color">#FBE795</color><!-- アプリで主に使う黄色 -->
+    <color name="app_main_yellow_dark_color">#DBC775</color><!-- アプリで主に使う黄色(暗) -->
+    <color name="app_main_orange_color">#FBD195</color><!-- アプリで主に使うオレンジ色 -->
+    <color name="app_main_orange_dark_color">#DBB175</color><!-- アプリで主に使うオレンジ色(暗) -->
+    <color name="app_button_disable_color">#968D8D</color>
+    <!-- common color end-->
+
+    <color name="app_favorite_color">#DE7295</color><!-- 通常いいねボタンカラー -->
+    <color name="app_favorite_dark_color">#BE5275</color><!-- 通常いいねボタンカラー（暗） -->
+
+    <color name="new_icon_color">#DE7295</color>
+    <color name="user_favorite_color">#E59894</color><!-- ユーザー画面通話いいねボタンカラー -->
+    <color name="user_favorite_dark_color">#C57874</color><!-- ユーザー画面通話いいねボタンカラー（暗） -->
+    <color name="user_favorite_disable_color">#968D8D</color><!-- ユーザー画面通話いいねボタンカラー -->
+    <color name="user_call_phone_color">#A2C654</color><!-- ユーザー画面通話ボタンカラー -->
+    <color name="user_call_phone_dark_color">#82A634</color><!-- ユーザー画面通話ボタンカラー（暗） -->
+    <color name="user_mail_color">#8FBDD9</color>
+    <color name="user_mail_dark_color">#6F9DB9</color>
+    <color name="call_phone_select_green">#A2C654</color><!-- 通話画面各種ボタンSelectedカラー -->
+    <color name="call_phone_avail_green">#A2C654</color><!-- 通話画面各種ボタンSelectedカラー -->
+    <color name="background_friend_invite_color">#D37F8F</color><!-- 友達紹介の背景に使う色 -->
+    <color name="age_verification_header_background_color">#E9E9E9</color>
+    <color name="daily_bonus_receive_color">#DE7295</color><!-- デイリーボーナスを受け取った時の色 -->
+    <color name="swipe_action_background">#CCFFFFFF</color>
+
+</resources>
