@@ -1,0 +1,26 @@
+name: flutter_kboy_app_second
+description: A new Flutter application.
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^1.1.0
+  cloud_firestore: ^0.12.9+5
+  firebase_analytics: ^5.0.2
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
