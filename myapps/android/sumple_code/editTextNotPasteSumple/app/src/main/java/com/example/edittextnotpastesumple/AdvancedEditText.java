@@ -5,6 +5,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.EditText;
 
+import androidx.annotation.NonNull;
+
 public class AdvancedEditText extends EditText {
 
     private OnContextMenuListener menuListener;
@@ -21,24 +23,35 @@ public class AdvancedEditText extends EditText {
         super(context, attrs, defStyle);
     }
 
+    public void initialize(
+            @NonNull OnContextMenuListener onContextMenuListener
+    ) {
+        Log.d("Log" ,"  onContextMenuListener =" +onContextMenuListener  );
+
+            menuListener = onContextMenuListener;
+    }
+
     @Override
     public boolean onTextContextMenuItem(int id) {
         switch (id) {
             case android.R.id.cut:
 
                 Log.d("Log", " コピーされたとき ");
+                Log.d("Log" ," menuListener = " +menuListener );
 
 //                /** コピーされたとき */
 //                menuListener.onCut();
                 break;
             case android.R.id.paste:
 
-                Log.d("Log", " コピーされたとき ");
+                Log.d("Log", " 貼り付けされたとき ");
+                Log.d("Log" ," menuListener = " +menuListener );
 //                /** 貼り付けされたとき */
-//                menuListener.onPaste();
+                menuListener.onPaste();
                 break;
             case android.R.id.copy:
                 Log.d("Log" ,"  切り取りされたとき" );
+                Log.d("Log" ," menuListener = " +menuListener );
 
 //                /** 切り取りされたとき */
 //                menuListener.onCopy();
